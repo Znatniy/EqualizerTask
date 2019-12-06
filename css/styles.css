@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button:hover {
+    font-weight: bold;
+}
+.sound {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    background-color: rgb(21, 177, 21);
+}
+.brick_container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 100px;
+    height: 40px;
+}
+.remark {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#vLabel {
+    margin-right: 10px;
+}
